@@ -25,10 +25,16 @@ grep [option ...] [patterns] [file...]
 > -e *patterns*  
 > --regexp=*patterns*  
 > pattens中的换行符将多个pattern分隔开。如果此选项被多次使用或者与 **-f(--file)** 选项组合使用，将搜索给定的所有模式。在**shell**命令中使用**grep**，通常应该引用该模式。（**-e**由**POSIX**指定。）
-![alt 匹配控制-e参数](https://github.com/hulingyue/notes/blob/main/Linux/img/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01%20grep/grep_e.png)
+![alt 匹配控制-e参数](../img/常用命令/01%20grep/grep_e.png)
 
 > -f file  
 > --file=*file*  
 > 从文件中按行提取匹配的文本。如果此选项被多次使用或与 **-e(--regrep)** 选项组合使用，将搜索给定的所有模式。当文件为"-"时，将从标准输入输出读取输入文本。空文件包含零个模式，因此不匹配任何模式。(**-f**由**POSIX**指定。)  
 > 注：应该注意的是，这个模式并非指定要搜索的文本，而是指定存储了pattern的文本！
-![alt 匹配控制-f参数](https://github.com/hulingyue/notes/blob/main/Linux/img/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01%20grep/grep_f.png)
+![alt 匹配控制-f参数](../img/常用命令/01%20grep/grep_f.png)
+
+> -i  
+> -y  
+> --ignore-case  
+> 忽略模式和输入数据中的大小写区别，使大小写不同的字符相互匹配。  
+![alt 匹配控制-i参数](../img/常用命令/01%20grep/grep_e.png)
