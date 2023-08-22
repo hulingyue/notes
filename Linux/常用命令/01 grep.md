@@ -25,9 +25,7 @@ grep [option ...] [patterns] [file...]
 > -e *patterns*  
 > --regexp=*patterns*  
 > pattens中的换行符将多个pattern分隔开。如果此选项被多次使用或者与 **-f(--file)** 选项组合使用，将搜索给定的所有模式。在**shell**命令中使用**grep**，通常应该引用该模式。（**-e**由**POSIX**指定。）
-``` shell
-grep -e "\\\n" --regexp="h" --regexp "e" test1.txt
-```
+![alt 匹配控制-e参数](https://github.com/hulingyue/notes/blob/main/Linux/img/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/01%20grep/grep_e.png)
 
 > -f file  
 > --file=*file*  
