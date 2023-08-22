@@ -41,3 +41,8 @@ grep [option ...] [patterns] [file...]
 
 > --no-ignore-case  
 > [默认选项]区分模式和输入数据的大小写区别。
+
+> -v  
+> --invert-match  
+> 反转匹配结果，显示没有匹配的行(**-v**由**POSIX**指定。)  
+![alt 匹配控制-v参数](../img/常用命令/01%20grep/grep_v.png)
