@@ -75,4 +75,8 @@ grep [option ...] [patterns] [file...]
 > -L  
 > --files-without-match  
 > 输出没有任何行匹配模式的文件名。  
+
+> -l  
+> --files-with-matchs  
+> 输出所有能够匹配模式的文件名。该参数下，当**grep**在同一文件中找到第一个匹配项后就会立即停止后续的匹配工作。  
 ![alt 通用控制输出-L参数](./../img/常用命令/01%20grep/grep_L.png)
