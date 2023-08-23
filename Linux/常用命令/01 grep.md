@@ -65,3 +65,9 @@ grep [option ...] [patterns] [file...]
 > --count   
 > 取消常见的匹配文本输出，替代为输出每个输入文件匹配的行数。当结合 **-v** 参数使用时，输出未匹配的行数。  
 ![alt 通用输出控制-c参数](./../img/常用命令/01%20grep/grep_c.png)
+
+> --color[=*WHEN*]  
+> --colour[=*WHEN*]  
+> 用于指定匹配的文本是否显示颜色。若要改变匹配文本显示的颜色，可以使用*GREP_COLORS*环境变量。  
+> 例如： ** export GREP_COLORS='ms=01;31' **  
+![alt 通用输出控制--color参数](./../img/常用命令/01%20grep/grep_color.png)
