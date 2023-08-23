@@ -88,3 +88,7 @@ grep [option ...] [patterns] [file...]
 > 当**grep**在选定的*num*行之后停止，它将会输出匹配的行内容。如果同时使用 **-c** 或 **--count** 选项，那输出的值将不会大于*num*。如果同时使用 **-v** 或 **--invert-match** 那么 **grep** 将会在寻找到最多*num*个不匹配行后停止。  
 ![alt 通用控制输出-m参数](./../img/常用命令/01%20grep/grep_m.png)
 
+> -o  
+> --only-matching  
+> 只打印匹配行中匹配的非空部分，每个部分都在单独的输出行上。输出行使用与输入相同的分隔符，如果还使用了-z（--null data），则分隔符为null字节。  
+![alt 通用控制输出-o参数](./../img/常用命令/01%20grep/grep_o.png)
