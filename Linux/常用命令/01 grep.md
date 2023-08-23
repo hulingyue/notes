@@ -92,3 +92,12 @@ grep [option ...] [patterns] [file...]
 > --only-matching  
 > 只打印匹配行中匹配的非空部分，每个部分都在单独的输出行上。输出行使用与输入相同的分隔符，如果还使用了-z（--null data），则分隔符为null字节。  
 ![alt 通用控制输出-o参数](./../img/常用命令/01%20grep/grep_o.png)
+
+> -q  
+> --quiet  
+> --silent  
+> Quiet! 不会向标准输出写入任何内容。
+
+> -s  
+> --no-messages  
+> 禁止显示有关不存在或不可读文件的错误消息。
