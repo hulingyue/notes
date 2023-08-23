@@ -71,3 +71,8 @@ grep [option ...] [patterns] [file...]
 > 用于指定匹配的文本是否显示颜色。若要改变匹配文本显示的颜色，可以使用*GREP_COLORS*环境变量。  
 > 例如： ** export GREP_COLORS='ms=01;31' **  
 ![alt 通用输出控制--color参数](./../img/常用命令/01%20grep/grep_color.png)
+
+> -L  
+> --files-without-match  
+> 输出没有任何行匹配模式的文件名。  
+![alt 通用控制输出-L参数](./../img/常用命令/01%20grep/grep_L.png)
